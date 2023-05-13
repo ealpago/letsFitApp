@@ -1,0 +1,6 @@
+framework module Pods_letsFitApp {
+  umbrella header "Pods-letsFitApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

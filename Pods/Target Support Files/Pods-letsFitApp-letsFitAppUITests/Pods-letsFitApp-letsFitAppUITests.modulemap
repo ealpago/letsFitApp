@@ -1,0 +1,6 @@
+framework module Pods_letsFitApp_letsFitAppUITests {
+  umbrella header "Pods-letsFitApp-letsFitAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
