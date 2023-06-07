@@ -9,9 +9,18 @@
 /* Begin PBXBuildFile section */
 		35035B4DCFE8ACBBFA03C878 /* Pods_letsFitApp_letsFitAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3BFEEAE4041E7FA9AE3181 /* Pods_letsFitApp_letsFitAppUITests.framework */; };
 		7CBADACDA2EE99BDDD8A1002 /* Pods_letsFitAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C4F93A1067BD3F5AB31E7A /* Pods_letsFitAppTests.framework */; };
+		D18F59F32A312FDD00C1F09C /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F59F22A312FDD00C1F09C /* FitnessViewController.swift */; };
+		D18F59F52A312FED00C1F09C /* FitnessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F59F42A312FED00C1F09C /* FitnessViewModel.swift */; };
+		D18F59F72A31301100C1F09C /* FitnessStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18F59F62A31301100C1F09C /* FitnessStoryboard.storyboard */; };
+		D18F59F92A3130FE00C1F09C /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F59F82A3130FE00C1F09C /* MealsViewController.swift */; };
+		D18F59FB2A31311500C1F09C /* MealsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F59FA2A31311500C1F09C /* MealsViewModel.swift */; };
+		D18F59FD2A31312200C1F09C /* MealsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18F59FC2A31312200C1F09C /* MealsStoryboard.storyboard */; };
+		D18F59FF2A3131D500C1F09C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F59FE2A3131D500C1F09C /* ReportsViewController.swift */; };
+		D18F5A012A3131E300C1F09C /* ReportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F5A002A3131E300C1F09C /* ReportsViewModel.swift */; };
+		D18F5A032A3131F100C1F09C /* ReportsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18F5A022A3131F100C1F09C /* ReportsStoryboard.storyboard */; };
 		D1F104702A0FF56400A80460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1046F2A0FF56400A80460 /* AppDelegate.swift */; };
 		D1F104722A0FF56400A80460 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F104712A0FF56400A80460 /* SceneDelegate.swift */; };
-		D1F104742A0FF56400A80460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F104732A0FF56400A80460 /* ViewController.swift */; };
+		D1F104742A0FF56400A80460 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F104732A0FF56400A80460 /* BaseTabBarController.swift */; };
 		D1F104772A0FF56400A80460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F104752A0FF56400A80460 /* Main.storyboard */; };
 		D1F1047A2A0FF56400A80460 /* letsFitApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1F104782A0FF56400A80460 /* letsFitApp.xcdatamodeld */; };
 		D1F1047C2A0FF56500A80460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F1047B2A0FF56500A80460 /* Assets.xcassets */; };
@@ -48,10 +57,19 @@
 		8D1EF5E584A4F2D423355B82 /* Pods-letsFitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsFitAppTests.release.xcconfig"; path = "Target Support Files/Pods-letsFitAppTests/Pods-letsFitAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4C5CE5C46331CEF34780841 /* Pods-letsFitApp-letsFitAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsFitApp-letsFitAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-letsFitApp-letsFitAppUITests/Pods-letsFitApp-letsFitAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0D0F41D3DAB53F9284DF367 /* Pods-letsFitApp-letsFitAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsFitApp-letsFitAppUITests.release.xcconfig"; path = "Target Support Files/Pods-letsFitApp-letsFitAppUITests/Pods-letsFitApp-letsFitAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D18F59F22A312FDD00C1F09C /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
+		D18F59F42A312FED00C1F09C /* FitnessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewModel.swift; sourceTree = "<group>"; };
+		D18F59F62A31301100C1F09C /* FitnessStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FitnessStoryboard.storyboard; sourceTree = "<group>"; };
+		D18F59F82A3130FE00C1F09C /* MealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
+		D18F59FA2A31311500C1F09C /* MealsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewModel.swift; sourceTree = "<group>"; };
+		D18F59FC2A31312200C1F09C /* MealsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MealsStoryboard.storyboard; sourceTree = "<group>"; };
+		D18F59FE2A3131D500C1F09C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		D18F5A002A3131E300C1F09C /* ReportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewModel.swift; sourceTree = "<group>"; };
+		D18F5A022A3131F100C1F09C /* ReportsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReportsStoryboard.storyboard; sourceTree = "<group>"; };
 		D1F1046C2A0FF56400A80460 /* letsFitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsFitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F1046F2A0FF56400A80460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1F104712A0FF56400A80460 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1F104732A0FF56400A80460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1F104732A0FF56400A80460 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		D1F104762A0FF56400A80460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1F104792A0FF56400A80460 /* letsFitApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = letsFitApp.xcdatamodel; sourceTree = "<group>"; };
 		D1F1047B2A0FF56500A80460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +121,6 @@
 				236DB632E1E463E7489BBD68 /* Pods-letsFitAppTests.debug.xcconfig */,
 				8D1EF5E584A4F2D423355B82 /* Pods-letsFitAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +132,56 @@
 				F7C4F93A1067BD3F5AB31E7A /* Pods_letsFitAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D18F59ED2A312F2700C1F09C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D18F59EE2A312F5600C1F09C /* BaseTabbar */,
+				D18F59EF2A312F7500C1F09C /* Fitness */,
+				D18F59F02A312F8000C1F09C /* Meals */,
+				D18F59F12A312F8900C1F09C /* Reports */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D18F59EE2A312F5600C1F09C /* BaseTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D1F104732A0FF56400A80460 /* BaseTabBarController.swift */,
+				D1F104752A0FF56400A80460 /* Main.storyboard */,
+			);
+			path = BaseTabbar;
+			sourceTree = "<group>";
+		};
+		D18F59EF2A312F7500C1F09C /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				D18F59F22A312FDD00C1F09C /* FitnessViewController.swift */,
+				D18F59F42A312FED00C1F09C /* FitnessViewModel.swift */,
+				D18F59F62A31301100C1F09C /* FitnessStoryboard.storyboard */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		D18F59F02A312F8000C1F09C /* Meals */ = {
+			isa = PBXGroup;
+			children = (
+				D18F59F82A3130FE00C1F09C /* MealsViewController.swift */,
+				D18F59FA2A31311500C1F09C /* MealsViewModel.swift */,
+				D18F59FC2A31312200C1F09C /* MealsStoryboard.storyboard */,
+			);
+			path = Meals;
+			sourceTree = "<group>";
+		};
+		D18F59F12A312F8900C1F09C /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				D18F59FE2A3131D500C1F09C /* ReportsViewController.swift */,
+				D18F5A002A3131E300C1F09C /* ReportsViewModel.swift */,
+				D18F5A022A3131F100C1F09C /* ReportsStoryboard.storyboard */,
+			);
+			path = Reports;
 			sourceTree = "<group>";
 		};
 		D1F104632A0FF56400A80460 = {
@@ -142,10 +209,9 @@
 		D1F1046E2A0FF56400A80460 /* letsFitApp */ = {
 			isa = PBXGroup;
 			children = (
+				D18F59ED2A312F2700C1F09C /* Controllers */,
 				D1F1046F2A0FF56400A80460 /* AppDelegate.swift */,
 				D1F104712A0FF56400A80460 /* SceneDelegate.swift */,
-				D1F104732A0FF56400A80460 /* ViewController.swift */,
-				D1F104752A0FF56400A80460 /* Main.storyboard */,
 				D1F1047B2A0FF56500A80460 /* Assets.xcassets */,
 				D1F1047D2A0FF56500A80460 /* LaunchScreen.storyboard */,
 				D1F104802A0FF56500A80460 /* Info.plist */,
@@ -278,7 +344,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18F59F72A31301100C1F09C /* FitnessStoryboard.storyboard in Resources */,
 				D1F1047F2A0FF56500A80460 /* LaunchScreen.storyboard in Resources */,
+				D18F59FD2A31312200C1F09C /* MealsStoryboard.storyboard in Resources */,
+				D18F5A032A3131F100C1F09C /* ReportsStoryboard.storyboard in Resources */,
 				D1F1047C2A0FF56500A80460 /* Assets.xcassets in Resources */,
 				D1F104772A0FF56400A80460 /* Main.storyboard in Resources */,
 			);
@@ -374,9 +443,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1F104742A0FF56400A80460 /* ViewController.swift in Sources */,
+				D1F104742A0FF56400A80460 /* BaseTabBarController.swift in Sources */,
+				D18F59F32A312FDD00C1F09C /* FitnessViewController.swift in Sources */,
 				D1F104702A0FF56400A80460 /* AppDelegate.swift in Sources */,
+				D18F59F52A312FED00C1F09C /* FitnessViewModel.swift in Sources */,
+				D18F59FF2A3131D500C1F09C /* ReportsViewController.swift in Sources */,
+				D18F59F92A3130FE00C1F09C /* MealsViewController.swift in Sources */,
+				D18F59FB2A31311500C1F09C /* MealsViewModel.swift in Sources */,
 				D1F104722A0FF56400A80460 /* SceneDelegate.swift in Sources */,
+				D18F5A012A3131E300C1F09C /* ReportsViewModel.swift in Sources */,
 				D1F1047A2A0FF56400A80460 /* letsFitApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
