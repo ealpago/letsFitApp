@@ -18,6 +18,8 @@
 		D18F59FF2A3131D500C1F09C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F59FE2A3131D500C1F09C /* ReportsViewController.swift */; };
 		D18F5A012A3131E300C1F09C /* ReportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F5A002A3131E300C1F09C /* ReportsViewModel.swift */; };
 		D18F5A032A3131F100C1F09C /* ReportsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18F5A022A3131F100C1F09C /* ReportsStoryboard.storyboard */; };
+		D18F5A0A2A34E34A00C1F09C /* MealsTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F5A082A34E34A00C1F09C /* MealsTableTableViewCell.swift */; };
+		D18F5A0B2A34E34A00C1F09C /* MealsTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18F5A092A34E34A00C1F09C /* MealsTableTableViewCell.xib */; };
 		D1F104702A0FF56400A80460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1046F2A0FF56400A80460 /* AppDelegate.swift */; };
 		D1F104722A0FF56400A80460 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F104712A0FF56400A80460 /* SceneDelegate.swift */; };
 		D1F104742A0FF56400A80460 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F104732A0FF56400A80460 /* BaseTabBarController.swift */; };
@@ -66,6 +68,8 @@
 		D18F59FE2A3131D500C1F09C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		D18F5A002A3131E300C1F09C /* ReportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewModel.swift; sourceTree = "<group>"; };
 		D18F5A022A3131F100C1F09C /* ReportsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReportsStoryboard.storyboard; sourceTree = "<group>"; };
+		D18F5A082A34E34A00C1F09C /* MealsTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableTableViewCell.swift; sourceTree = "<group>"; };
+		D18F5A092A34E34A00C1F09C /* MealsTableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealsTableTableViewCell.xib; sourceTree = "<group>"; };
 		D1F1046C2A0FF56400A80460 /* letsFitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsFitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F1046F2A0FF56400A80460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1F104712A0FF56400A80460 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				D18F59F82A3130FE00C1F09C /* MealsViewController.swift */,
 				D18F59FA2A31311500C1F09C /* MealsViewModel.swift */,
 				D18F59FC2A31312200C1F09C /* MealsStoryboard.storyboard */,
+				D18F5A072A34E2F200C1F09C /* MealsTableViewCell */,
 			);
 			path = Meals;
 			sourceTree = "<group>";
@@ -182,6 +187,22 @@
 				D18F5A022A3131F100C1F09C /* ReportsStoryboard.storyboard */,
 			);
 			path = Reports;
+			sourceTree = "<group>";
+		};
+		D18F5A052A31381500C1F09C /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		D18F5A072A34E2F200C1F09C /* MealsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D18F5A082A34E34A00C1F09C /* MealsTableTableViewCell.swift */,
+				D18F5A092A34E34A00C1F09C /* MealsTableTableViewCell.xib */,
+			);
+			path = MealsTableViewCell;
 			sourceTree = "<group>";
 		};
 		D1F104632A0FF56400A80460 = {
@@ -209,6 +230,7 @@
 		D1F1046E2A0FF56400A80460 /* letsFitApp */ = {
 			isa = PBXGroup;
 			children = (
+				D18F5A052A31381500C1F09C /* Networks */,
 				D18F59ED2A312F2700C1F09C /* Controllers */,
 				D1F1046F2A0FF56400A80460 /* AppDelegate.swift */,
 				D1F104712A0FF56400A80460 /* SceneDelegate.swift */,
@@ -350,6 +372,7 @@
 				D18F5A032A3131F100C1F09C /* ReportsStoryboard.storyboard in Resources */,
 				D1F1047C2A0FF56500A80460 /* Assets.xcassets in Resources */,
 				D1F104772A0FF56400A80460 /* Main.storyboard in Resources */,
+				D18F5A0B2A34E34A00C1F09C /* MealsTableTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +473,7 @@
 				D18F59FF2A3131D500C1F09C /* ReportsViewController.swift in Sources */,
 				D18F59F92A3130FE00C1F09C /* MealsViewController.swift in Sources */,
 				D18F59FB2A31311500C1F09C /* MealsViewModel.swift in Sources */,
+				D18F5A0A2A34E34A00C1F09C /* MealsTableTableViewCell.swift in Sources */,
 				D1F104722A0FF56400A80460 /* SceneDelegate.swift in Sources */,
 				D18F5A012A3131E300C1F09C /* ReportsViewModel.swift in Sources */,
 				D1F1047A2A0FF56400A80460 /* letsFitApp.xcdatamodeld in Sources */,

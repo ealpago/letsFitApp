@@ -50,6 +50,7 @@ enum TabbarItemType {
             return  UIImage(systemName: "chart.bar.fill")!
         }
     }
+
     var selectedImage: UIImage {
         switch self {
         case .fitness:
@@ -77,12 +78,10 @@ final class BaseTabBarController: UITabBarController {
     func setupTabBar() {
         let views = items.compactMap { item in
             let vc = UIStoryboard(name: item.name, bundle: nil).instantiateViewController(withIdentifier: item.identifier)
-
             let tabBarItem = UITabBarItem(title: nil,
                                           image: item.image,
                                           selectedImage: item.selectedImage)
             vc.tabBarItem = tabBarItem
-
             return vc
         }
         setViewControllers(views, animated: true)
